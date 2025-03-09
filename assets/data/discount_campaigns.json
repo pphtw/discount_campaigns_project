@@ -1,0 +1,38 @@
+{
+  "discount_campaigns": [
+    {
+      "id": 1,
+      "name": "Discount 50 ฿",
+      "desc": "Discounts the entire cart by 50฿ from the total price.",
+      "type": "fixedAmount",
+      "category": "coupon",
+      "amount": 50.0
+    },
+    {
+      "id": 2,
+      "name": "Discount 30 %",
+      "desc": "Discounts the entire cart by 30% from the total price.",
+      "type": "percentageDiscount",
+      "category": "coupon",
+      "amount": 30.0
+    },
+    {
+      "id": 3,
+      "name": "Discount 15 % for clothing",
+      "desc": "Discounts only clothing product by 15%.",
+      "type": "percentageDiscountByItemCategory",
+      "category": "onTop",
+      "amount": 15.0,
+      "item_category": "clothing"
+    },
+    {
+      "id": 4,
+      "name": "Discount 50฿ every 300฿",
+      "desc": "Discount by 50฿ at every 300฿.",
+      "type": "specialCampaign",
+      "category": "seasonal",
+      "amount": 50.0,
+      "every_x_thb": 300.0
+    }
+  ]
+}

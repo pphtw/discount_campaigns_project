@@ -1,0 +1,49 @@
+{
+  "shopping_items": [
+    {
+      "id": 1,
+      "product": "T-Shirt",
+      "price": 350.00,
+      "currency": "฿",
+      "quantity": 3,
+      "image_path": "assets/images/products/t-shirt.jpg",
+      "category": "clothing"
+    },
+    {
+      "id": 2,
+      "product": "Hat",
+      "price": 250.00,
+      "currency": "฿",
+      "quantity": 1,
+      "image_path": "assets/images/products/hat.jpg",
+      "category": "accessories"
+    },
+    {
+      "id": 3,
+      "product": "Hoodie",
+      "price": 700.00,
+      "currency": "฿",
+      "quantity": 1,
+      "image_path": "assets/images/products/hoodie.jpg",
+      "category": "clothing"
+    },
+    {
+      "id": 4,
+      "product": "Watch",
+      "price": 850.00,
+      "currency": "฿",
+      "quantity": 1,
+      "image_path": "assets/images/products/watch.jpg",
+      "category": "electronics"
+    },
+    {
+      "id": 5,
+      "product": "Bag",
+      "price": 640.00,
+      "currency": "฿",
+      "quantity": 1,
+      "image_path": "assets/images/products/bag.jpg",
+      "category": "accessories"
+    }
+  ]
+}
