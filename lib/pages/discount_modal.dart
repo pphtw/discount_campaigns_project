@@ -112,7 +112,7 @@ class _DiscountCampaignModalState extends State<DiscountCampaignModal> {
       },
     ).toList();
 
-    //point section display
+    //points section display
     Widget pointDiscount = Container(
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
