@@ -4,7 +4,7 @@ Contributor: Phutawan Palakavong
 
 In this module, I assume that user have 1,000 points (You can find this constant in ShoppingCartPage.dart) and currency is THB.
 
-shopping item data response (shopping_items.json)
+shopping item data response example (shopping_items.json)
 ```
 {
       "id": 2,
@@ -16,7 +16,7 @@ shopping item data response (shopping_items.json)
       "category": "accessories" // value: clothing, accessories, electronics
 }
 ```
-discount campaign data response (discount_campaigns.json)
+discount campaign data response example (discount_campaigns.json)
 ```
 {
       "id": 3,
