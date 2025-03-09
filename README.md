@@ -1,7 +1,33 @@
-# project
+# Discount campaign Module
 
-A discount campaign project.
 Contributor: Phutawan Palakavong
 
-## Getting Started
+In this module, I assume that user have 1,000 points (You can find this constant in ShoppingCartPage.dart) and currency is THB.
 
+shopping item data response (shopping_items.json)
+```
+{
+      "id": 2,
+      "product": "Hat",
+      "price": 250.00,
+      "currency": "฿",
+      "quantity": 1,
+      "image_path": "assets/images/products/hat.jpg",
+      "category": "accessories" // value: clothing, accessories, electronics
+}
+```
+discount campaign data response (discount_campaigns.json)
+```
+{
+      "id": 3,
+      "name": "Discount 15 % for clothing",
+      "desc": "Discounts only clothing product by 15%.",
+      "type": "percentageDiscountByItemCategory",
+      "category": "onTop", // value: coupon, onTop, seasonal
+      "amount": 15.0,
+      "item_category": "clothing" // this attribute is optional (value: clothing, accessories, electronics)
+}
+```
+
+### References
+Products picture from https://www.freepik.com/
